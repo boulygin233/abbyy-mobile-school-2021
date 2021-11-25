@@ -7,11 +7,23 @@ public class Task01 {
      * Не использовать стандартную библиотеку!
      */
     public static int min(int[] ints) {
-        return 0;
+        int minimal = ints[0];
+        for (int num : ints) {
+            if (num < minimal) {
+                minimal = num;
+            }
+        }
+        return minimal;
     }
 
     public static float average(int[] ints) {
-        return 0;
+        float sum = 0;
+        int n = 0;
+        for (int num : ints) {
+            sum += num;
+            ++n;
+        }
+        return sum / n;
     }
 
 }

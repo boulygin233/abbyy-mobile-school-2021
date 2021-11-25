@@ -1,1 +1,0 @@
-# abbyy-mobile-school-2020

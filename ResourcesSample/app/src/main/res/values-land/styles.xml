@@ -1,6 +1,0 @@
-<resources>
-    <style name="ActivityMainLayoutStyle" >
-        <item name="android:orientation">horizontal</item>
-    </style>
-
-</resources>
